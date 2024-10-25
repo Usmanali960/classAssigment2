@@ -25,3 +25,9 @@ body {
     text-wrap: balance;
   }
 }
+
+.grid-container{
+  display: grid;
+  grid-template-columns:auto-fit minmax(300px,1fr);
+  justify-content: center;
+}
